@@ -220,6 +220,46 @@
     ]
   },
   {
+    "id": "faqs",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Classes",
+        "options": [
+          {
+            "name": "Cards Style",
+            "children": [
+              {
+                "name": "FAQ Section",
+                "value": "faqs"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "faq-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "text",
+        "value": "",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {

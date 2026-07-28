@@ -16,7 +16,7 @@
       "cards",
       "columns",
       "fragment",
-      "faq"
+      "faqs"
     ]
   },
   {
@@ -42,6 +42,12 @@
   },
   {
     "id": "faq",
+    "components": [
+      "faq-item"
+    ]
+  },
+  {
+    "id": "faqs",
     "components": [
       "faq-item"
     ]
