@@ -180,7 +180,7 @@
     ]
   },
   {
-    "id": "faq",
+    "id": "faqSection",
     "fields": [
       {
         "component": "multiselect",
@@ -188,11 +188,11 @@
         "label": "Classes",
         "options": [
           {
-            "name": "FAQ Style",
+            "name": "Cards Style",
             "children": [
               {
-                "name": "FAQ",
-                "value": "faq"
+                "name": "FAQ Section",
+                "value": "faqSection"
               }
             ]
           }
@@ -205,14 +205,16 @@
     "fields": [
       {
         "component": "text",
-        "name": "question",
-        "label": "Question",
+        "name": "text",
+        "value": "",
+        "label": "Title",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "answer",
-        "label": "Answer",
+        "name": "description",
+        "value": "",
+        "label": "Description",
         "valueType": "string"
       }
     ]

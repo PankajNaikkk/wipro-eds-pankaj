@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": "faq",
+    "id": "faqSection",
     "components": [
       "faq-item"
     ]
