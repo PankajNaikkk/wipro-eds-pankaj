@@ -1,4 +1,4 @@
-.faq {
+.faq-section {
   max-width: 900px;
   margin: 0 auto;
 }
@@ -24,7 +24,7 @@
 .faq-question::after {
   content: '+';
   font-size: 1.5rem;
-  transition: transform .2s ease;
+  transition: transform 0.2s ease;
 }
 
 .faq-item.open .faq-question::after {
