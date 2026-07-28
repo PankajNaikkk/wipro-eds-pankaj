@@ -33,6 +33,27 @@
   ],
   "models": [
     {
+        "id": "faq",
+        "fields": [
+            {
+                "component": "multiselect",
+                "name": "classes",
+                "label": "Classes",
+                "options": [
+                    {
+                        "name": "FAQ Style",
+                        "children": [
+                            {
+                                "name": "FAQ",
+                                "value": "faq"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
       "id": "faq-item",
       "fields": [
         {
