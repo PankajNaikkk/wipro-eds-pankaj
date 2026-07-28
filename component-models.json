@@ -180,6 +180,31 @@
     ]
   },
   {
+    "id": "faq",
+    "fields": [
+      {
+        "component": "multifield",
+        "name": "items",
+        "label": "FAQ Items",
+        "valueType": "object",
+        "fields": [
+          {
+            "component": "text",
+            "name": "question",
+            "label": "Question",
+            "valueType": "string"
+          },
+          {
+            "component": "richtext",
+            "name": "answer",
+            "label": "Answer",
+            "valueType": "string"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
