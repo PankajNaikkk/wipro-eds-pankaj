@@ -159,14 +159,14 @@
           }
         },
         {
-          "title": "FAQ Section",
+          "title": "FAQs",
           "id": "faqs",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "FAQ Section",
+                  "name": "FAQs",
                   "model": "faqs",
                   "filter": "faqs"
                 }
