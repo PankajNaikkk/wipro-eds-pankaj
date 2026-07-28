@@ -180,27 +180,19 @@
     ]
   },
   {
-    "id": "faq",
+    "id": "faq-item",
     "fields": [
       {
-        "component": "multifield",
-        "name": "items",
-        "label": "FAQ Items",
-        "valueType": "object",
-        "fields": [
-          {
-            "component": "text",
-            "name": "question",
-            "label": "Question",
-            "valueType": "string"
-          },
-          {
-            "component": "richtext",
-            "name": "answer",
-            "label": "Answer",
-            "valueType": "string"
-          }
-        ]
+        "component": "text",
+        "name": "question",
+        "label": "Question",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "answer",
+        "label": "Answer",
+        "valueType": "string"
       }
     ]
   },
