@@ -41,12 +41,6 @@
     ]
   },
   {
-    "id": "faq",
-    "components": [
-      "faq-item"
-    ]
-  },
-  {
     "id": "faqs",
     "components": [
       "faq-item"

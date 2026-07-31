@@ -136,6 +136,14 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Light",
+            "value": "light"
           }
         ]
       }
@@ -176,46 +184,6 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
-      }
-    ]
-  },
-  {
-    "id": "faq",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Classes",
-        "options": [
-          {
-            "name": "Cards Style",
-            "children": [
-              {
-                "name": "FAQs",
-                "value": "faq"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "faq-item",
-    "fields": [
-      {
-        "component": "text",
-        "name": "text",
-        "value": "",
-        "label": "Title",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "description",
-        "value": "",
-        "label": "Description",
-        "valueType": "string"
       }
     ]
   },
