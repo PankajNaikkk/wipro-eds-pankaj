@@ -59,7 +59,8 @@
         "cards",
         "columns",
         "fragment",
-        "faqs"
+        "faqs",
+        "marketo-form"
       ]
     }
   ]

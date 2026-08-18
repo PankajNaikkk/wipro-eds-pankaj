@@ -1,0 +1,29 @@
+.marketo-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.marketo-form .marketo-form-loader {
+  padding: 24px;
+  text-align: center;
+  color: var(--color-text, #444);
+  font-size: 0.9rem;
+}
+
+.marketo-form .marketo-form-error {
+  color: var(--color-error, #c00);
+}
+
+@media (min-width: 600px) {
+  .marketo-form {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 900px) {
+  .marketo-form {
+    padding: 32px;
+  }
+}

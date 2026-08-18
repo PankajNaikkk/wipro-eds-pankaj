@@ -22,7 +22,7 @@
   border: 0;
   cursor: pointer;
   padding: 22px 28px;
-  background: linear-gradient(135deg, #6c63ff, #8e44ad);
+  background: linear-gradient(135deg, red, #8e44ad);
   color: #fff;
   text-align: left;
   font-size: 20px;

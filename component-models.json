@@ -262,5 +262,16 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "marketo-form",
+    "fields": [
+      {
+        "component": "text",
+        "name": "formId",
+        "label": "Form ID",
+        "valueType": "string"
+      }
+    ]
   }
 ]
