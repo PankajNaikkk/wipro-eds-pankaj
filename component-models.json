@@ -155,7 +155,7 @@
       {
         "component": "multiselect",
         "name": "classes",
-        "label": "Card Style",
+        "label": "Classes",
         "options": [
           {
             "name": "Press Release",
