@@ -155,7 +155,7 @@
       {
         "component": "multiselect",
         "name": "classes",
-        "label": "Cards Style",
+        "label": "Cards Classes",
         "options": [
           {
             "name": "Cards Style",
