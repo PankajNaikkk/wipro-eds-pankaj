@@ -15,8 +15,19 @@
   place-items: center;
 }
 
-.test-image-block.test-image-banner>div {
-  display: contents;
+.test-image-block .test-image-banner-row {
+  width: 100%;
+}
+
+.test-image-block .test-image-banner-background-row {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+}
+
+.test-image-block .test-image-banner-overlay-row {
+  display: grid;
+  place-items: center;
 }
 
 .test-image-block .test-image-banner-background {
