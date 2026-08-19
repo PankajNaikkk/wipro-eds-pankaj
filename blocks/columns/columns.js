@@ -9,13 +9,13 @@ export default function decorate(block) {
       if (pic) {
         const picWrapper = pic.closest('div');
         if (picWrapper && picWrapper.children.length === 1) {
-          // picture is only content in column
           picWrapper.classList.add('columns-img-col');
         }
       }
     });
   });
 
+  // Intelligence
   const intelligence = block.closest('.intelligence');
 
   if (intelligence) {
@@ -30,5 +30,22 @@ export default function decorate(block) {
     column?.classList.add('intelligence-column');
     image?.classList.add('intelligence-image');
     text?.classList.add('intelligence-text');
+  }
+
+  // Innovation
+  const innovation = block.closest('.innovation');
+
+  if (innovation) {
+    const columnsWrapper = innovation.querySelector('.columns-wrapper');
+    const columns = innovation.querySelector('.columns');
+    const column = innovation.querySelector('.columns > div');
+    const image = innovation.querySelector('picture')?.closest('p');
+    const text = innovation.querySelector('[data-richtext-component="text"]')?.parentElement;
+
+    columnsWrapper?.classList.add('innovation-columns-wrapper');
+    columns?.classList.add('innovation-columns');
+    column?.classList.add('innovation-column');
+    image?.classList.add('innovation-image');
+    text?.classList.add('innovation-text');
   }
 }
