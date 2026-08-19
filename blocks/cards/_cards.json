@@ -34,7 +34,24 @@
   "models": [
     {
       "id": "card",
+      
       "fields": [
+        {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Classes",
+        "options": [
+          {
+            "name": "Cards Style",
+            "children": [
+              {
+                "name": "press-release",
+                "value": "press-release"
+              }
+            ]
+          }
+        ]
+      },
         {
           "component": "reference",
           "valueType": "string",
