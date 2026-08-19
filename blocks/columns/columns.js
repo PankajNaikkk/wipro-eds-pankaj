@@ -15,4 +15,20 @@ export default function decorate(block) {
       }
     });
   });
+
+  const intelligence = block.closest('.intelligence');
+
+  if (intelligence) {
+    const columnsWrapper = intelligence.querySelector('.columns-wrapper');
+    const columns = intelligence.querySelector('.columns');
+    const column = intelligence.querySelector('.columns > div');
+    const image = intelligence.querySelector('picture')?.closest('p');
+    const text = intelligence.querySelector('[data-richtext-component="text"]')?.parentElement;
+
+    columnsWrapper?.classList.add('intelligence-columns-wrapper');
+    columns?.classList.add('intelligence-columns');
+    column?.classList.add('intelligence-column');
+    image?.classList.add('intelligence-image');
+    text?.classList.add('intelligence-text');
+  }
 }
