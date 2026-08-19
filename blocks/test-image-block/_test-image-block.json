@@ -37,20 +37,6 @@
                 {
                     "component": "reference",
                     "valueType": "string",
-                    "name": "mobile-image",
-                    "label": "Image for Mobile",
-                    "multi": false
-                },
-                {
-                    "component": "text",
-                    "valueType": "string",
-                    "name": "mobile-imageAlt",
-                    "label": "Alt for Mobile",
-                    "value": ""
-                },
-                {
-                    "component": "reference",
-                    "valueType": "string",
                     "name": "desktop-overlay-image",
                     "label": "Overlay Image for Desktop",
                     "multi": false
@@ -60,20 +46,6 @@
                     "valueType": "string",
                     "name": "desktop-overlay-imageAlt",
                     "label": "Alt for Desktop Overlay",
-                    "value": ""
-                },
-                {
-                    "component": "reference",
-                    "valueType": "string",
-                    "name": "mobile-overlay-image",
-                    "label": "Overlay Image for Mobile",
-                    "multi": false
-                },
-                {
-                    "component": "text",
-                    "valueType": "string",
-                    "name": "mobile-overlay-imageAlt",
-                    "label": "Alt for Mobile Overlay",
                     "value": ""
                 }
             ]
