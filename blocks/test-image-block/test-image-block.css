@@ -30,6 +30,19 @@
   place-items: center;
 }
 
+@media (width: 744px) {
+  .test-image-block .test-image-banner-overlay-row .text {
+    width: 546px;
+  }
+}
+
+@media (width: 412px) {
+  .test-image-block .test-image-banner-overlay-row .text {
+    width: 290px;
+  }
+}
+
+
 .test-image-block .test-image-banner-background {
   position: absolute;
   z-index: -1;
@@ -47,7 +60,7 @@
 
 @media (width >=600px) {
   .test-image-block.test-image-banner {
-    min-height: 220px;
+    min-height: 378px;
   }
 
   .test-image-block .test-image-banner-overlay {}
