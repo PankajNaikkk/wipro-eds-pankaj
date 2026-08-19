@@ -279,5 +279,24 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "title",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "backgroundImage",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "overlayImage",
+        "label": "Overlay Image",
+        "multi": false
+      }
+    ]
   }
 ]
