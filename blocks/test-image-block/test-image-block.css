@@ -40,7 +40,6 @@
 
 .test-image-block .test-image-banner-overlay {
   display: block;
-  width: min(70%, 830px);
   height: auto;
   max-height: 88px;
   object-fit: contain;
@@ -51,7 +50,5 @@
     min-height: 220px;
   }
 
-  .test-image-block .test-image-banner-overlay {
-    width: min(65%, 830px);
-  }
+  .test-image-block .test-image-banner-overlay {}
 }
