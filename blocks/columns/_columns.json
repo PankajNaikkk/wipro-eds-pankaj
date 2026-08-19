@@ -33,6 +33,22 @@
           "name": "rows",
           "value": "",
           "label": "Rows"
+        },
+        {
+          "component": "multiselect",
+          "name": "classes",
+          "label": "Classes",
+          "options": [
+            {
+              "name": "Column Style",
+              "children": [
+                {
+                  "name": "Two Columns",
+                  "value": "column-two"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
