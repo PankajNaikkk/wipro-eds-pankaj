@@ -2,6 +2,13 @@ export default function decorate(block) {
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
 
+  const blockText = block.textContent.toLowerCase();
+  if (blockText.includes('innovation network')) {
+    block.classList.add('columns-innovation-network');
+  } else if (blockText.includes('wipro intelligence')) {
+    block.classList.add('columns-wipro-intelligence');
+  }
+
   [...block.children].forEach((row) => {
     row.classList.add('columns-row');
 
