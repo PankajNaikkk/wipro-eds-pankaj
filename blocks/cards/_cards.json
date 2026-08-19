@@ -39,7 +39,7 @@
         {
         "component": "multiselect",
         "name": "classes",
-        "label": "Cards Classes",
+        "label": "Classes",
         "options": [
           {
             "name": "Cards Style",
