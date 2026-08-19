@@ -33,13 +33,12 @@
   ],
   "models": [
     {
-      "id": "card",
-      
+      "id": "cards",
       "fields": [
         {
         "component": "multiselect",
         "name": "classes",
-        "label": "Classes",
+        "label": "Cards Styling",
         "options": [
           {
             "name": "Cards Style",
@@ -51,7 +50,12 @@
             ]
           }
         ]
-      },
+      }
+      ]
+    },
+    {
+      "id": "card",
+      "fields": [
         {
           "component": "reference",
           "valueType": "string",
