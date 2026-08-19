@@ -155,16 +155,11 @@
       {
         "component": "multiselect",
         "name": "classes",
-        "label": "Cards Styling",
+        "label": "Card Style",
         "options": [
           {
-            "name": "Cards Style",
-            "children": [
-              {
-                "name": "press-release",
-                "value": "press-release"
-              }
-            ]
+            "name": "Press Release",
+            "value": "press-release"
           }
         ]
       }

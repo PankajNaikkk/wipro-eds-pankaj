@@ -36,21 +36,16 @@
       "id": "cards",
       "fields": [
         {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Cards Styling",
-        "options": [
-          {
-            "name": "Cards Style",
-            "children": [
-              {
-                "name": "press-release",
-                "value": "press-release"
-              }
-            ]
-          }
-        ]
-      }
+          "component": "multiselect",
+          "name": "classes",
+          "label": "Card Style",
+          "options": [
+            {
+              "name": "Press Release",
+              "value": "press-release"
+            }
+          ]
+        }
       ]
     },
     {
