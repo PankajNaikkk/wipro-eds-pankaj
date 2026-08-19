@@ -42,83 +42,11 @@
           "label": "Card Style",
           "options": [
             {
-              "name": "Common Card Style",
-              "value": "common-card-style"
-            },
-            {
-              "name": "Two Card Style",
-              "value": "two-card-style"
-            },
-            {
-              "name": "Full Width Card Style",
-              "value": "full-width-card-style"
-            },
-            {
-              "name": "Icon Card Style",
-              "value": "icon-card-style"
-            },
-            {
-              "name": "Article Card Style",
-              "value": "article-card-style"
-            },
-            {
-              "name": "Cards Background Color",
+              "name": "Styling",
               "children": [
                 {
-                  "name": "Forest",
-                  "value": "bg-forest"
-                },
-                {
-                  "name": "Apple",
-                  "value": "bg-apple"
-                },
-                {
-                  "name": "Apple Dark",
-                  "value": "bg-apple-dark"
-                },
-                {
-                  "name": "Blossom",
-                  "value": "bg-blossom"
-                },
-                {
-                  "name": "Irish Green",
-                  "value": "bg-irish-green"
-                },
-                {
-                  "name": "Parchment",
-                  "value": "bg-parchment"
-                },
-                {
-                  "name": "Parchment Light",
-                  "value": "bg-parchment-light"
-                },
-                {
-                  "name": "Mint",
-                  "value": "bg-mint"
-                },
-                {
-                  "name": "Mint Light",
-                  "value": "bg-mint-light"
-                },
-                {
-                  "name": "Earth",
-                  "value": "bg-earth"
-                },
-                {
-                  "name": "Citrus",
-                  "value": "bg-citrus"
-                },
-                {
-                  "name": "Sky",
-                  "value": "bg-sky"
-                },
-                {
-                  "name": "White",
-                  "value": "bg-white"
-                },
-                {
-                  "name": "Grey",
-                  "value": "bg-grey"
+                  "name": "Press Release",
+                  "value": "press-release"
                 }
               ]
             }
