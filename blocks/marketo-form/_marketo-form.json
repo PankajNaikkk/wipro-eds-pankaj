@@ -25,6 +25,12 @@
           "name": "formId",
           "label": "Form ID",
           "valueType": "string"
+        },
+        {
+          "component": "aem-content",
+          "name": "successUrl",
+          "label": "Success Redirect URL",
+          "valueType": "string"
         }
       ]
     }

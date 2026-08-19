@@ -21,7 +21,11 @@ function loadMarketoScript() {
 }
 
 export default async function decorate(block) {
-  const formId = block.textContent.trim();
+  const rows = [...block.children];
+  const formId = rows[0]?.textContent.trim();
+  // successUrl may be authored as a link or plain text
+  const successAnchor = rows[1]?.querySelector('a');
+  const successUrl = successAnchor ? successAnchor.href : rows[1]?.textContent.trim();
 
   if (!formId) {
     block.textContent = 'Form ID is missing.';
@@ -50,5 +54,12 @@ export default async function decorate(block) {
     MARKETO_URL,
     MUNCHKIN_ID,
     Number(formId),
+    (form) => {
+      if (!successUrl) return;
+      form.onSuccess(() => {
+        window.location.assign(successUrl);
+        return false;
+      });
+    },
   );
 }
