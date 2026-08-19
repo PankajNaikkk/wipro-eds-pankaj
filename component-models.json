@@ -138,6 +138,14 @@
             "value": "highlight"
           },
           {
+            "name": "Innovation",
+            "value": "innovation"
+          },
+          {
+            "name": "Intelligence",
+            "value": "intelligence"
+          },
+          {
             "name": "Dark",
             "value": "dark"
           },
