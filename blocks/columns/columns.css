@@ -79,7 +79,7 @@
   color: #fff;
   font-family: roboto, roboto-fallback, sans-serif;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.34;
 }
 
@@ -94,6 +94,6 @@
 @media (width >=600px) {
   .section.intelligence.columns-container .columns.intelligence-columns .intelligence-text {
     padding: 32px 64px;
-    font-size: 36px;
+    font-size: 96px;
   }
 }
