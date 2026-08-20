@@ -93,7 +93,7 @@
 
 @media (width >=600px) {
   .section.intelligence.columns-container .columns.intelligence-columns .intelligence-text {
-    padding: 32px 64px;
+    padding: 80px;
     font-size: 96px;
   }
 }
