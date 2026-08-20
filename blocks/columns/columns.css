@@ -97,3 +97,12 @@
     font-size: 96px;
   }
 }
+
+
+/* innovation Component */
+
+.section.innovation.columns-container .columns-wrapper.innovation-columns-wrapper {
+  max-width: unset;
+  margin: 0;
+  padding: 0;
+}
